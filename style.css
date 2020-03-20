@@ -1,0 +1,145 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}
+
+/* Header */
+header img{
+    height: 40px;
+    width:130px;
+}
+
+/* NAVBAR */
+nav{
+    background-color: black;
+    
+}
+nav ul{
+    padding: 10px 0px;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* INTRODUCE */
+.introduce{
+    text-align: justify;
+}
+
+/* CAROUSEL */
+.carousel{
+    background-image: url(./img/slider_1.jpg);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* INTRO__CONTENT */
+.intro__content{
+    margin: 50px 0px;
+}
+.intro__content img{
+    width: 100%;
+}
+.intro__left, .intro__right, .intro__image1, .intro__image2{
+    width: 50%;
+}
+.intro__image1, .intro__image2, .intro__left, .intro__right {
+    float: left;
+}
+.intro__img{
+    padding: 0px 10px 10px;
+}
+
+/* PRODUCE */
+.produce{
+    margin: 0px 0px 50px 0px;
+}
+.produce p:first-child{
+    font-size: 2rem;
+    text-align: center;
+}
+.produce__container{
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+.produce__container p:nth-child(2){
+    font-size: 1.5rem;
+}
+.produce__container img{
+    width: 100%;
+}
+.produce__container button{
+   font-size: 1rem;
+}
+.produce__container p:nth-child(3){
+    text-align: justify;
+}
+ 
+/* BANNER */
+.banner{
+    background-image: url(./img/nature.jpg);
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    margin:0px 0px 30px 0px;
+
+}
+.banner__circle{
+    background-color: rgba(217, 83, 80, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top:30px;
+    left: 260px;
+}
+.banner__circle p{
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+   
+}
+.banner__circle p:first-child{
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+.banner__circle p:nth-child(2){
+    font-size: 3rem;
+    line-height: 50px;
+}
+/* SERVICE */
+.service__container{
+    width: 70%;
+    margin:auto;
+}
+.service__content{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.service__content p:nth-child(2){
+    margin:0px;
+    font-size: 1.5rem;
+}
+.service__content i{
+    font-size: 50px;
+    color: black;
+}
